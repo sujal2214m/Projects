@@ -57,6 +57,19 @@ body {
   .link:hover {
     background-color: #005f8b;
   }
+  .logo{
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  .logo img{
+    max-height: 2rem;
+  }
+  .logo svg{
+    max-height: 2rem;
+  }
   
   /* Responsive Styles */
   @media (max-width: 480px) {
